@@ -1,0 +1,469 @@
+Solanum lycopersicum,Tomato,Vegetable
+Capsicum annuum,Bell Pepper,Vegetable
+Cucumis sativus,Cucumber,Vegetable
+Brassica oleracea var. italica,Broccoli,Vegetable
+Brassica oleracea var. gemmifera,Brussels Sprouts,Vegetable
+Brassica oleracea var. capitata,Cabbage,Vegetable
+Brassica oleracea var. botrytis,Cauliflower,Vegetable
+Allium cepa,Onion,Vegetable
+Allium sativum,Garlic,Vegetable
+Beta vulgaris,Beet,Vegetable
+Daucus carota,Carrot,Vegetable
+Cucurbita pepo,Zucchini,Vegetable
+Solanum melongena,Eggplant,Vegetable
+Phaseolus vulgaris,Green Bean,Vegetable
+Pisum sativum,Peas,Vegetable
+Lactuca sativa,Lettuce,Vegetable
+Spinacia oleracea,Spinach,Vegetable
+Raphanus sativus,Radish,Vegetable
+Solanum tuberosum,Potato,Vegetable
+Cucurbita moschata,Butternut Squash,Vegetable
+Cucurbita maxima,Pumpkin,Vegetable
+Cucurbita pepo var. melopepo,Acorn Squash,Vegetable
+Solanum melongena var. esculentum,Japanese Eggplant,Vegetable
+Solanum lycopersicum var. cerasiforme,Cherry Tomato,Vegetable
+Solanum melongena var. depressum,Thai Eggplant,Vegetable
+Beta vulgaris var. cicla,Swiss Chard,Vegetable
+Lactuca sativa var. capitata,Iceberg Lettuce,Vegetable
+Lactuca sativa var. longifolia,Romaine Lettuce,Vegetable
+Cucurbita pepo var. pepo,Yellow Squash,Vegetable
+Cucumis melo,Melon,Vegetable
+Citrullus lanatus,Watermelon,Vegetable
+Cucurbita ficifolia,Chilacayote Squash,Vegetable
+Cucumis anguria,West Indian Gherkin,Vegetable
+Lactuca sativa var. crispa,Leaf Lettuce,Vegetable
+Solanum melongena var. serpentinum,Snake Eggplant,Vegetable
+Solanum aethiopicum,Scarlet Eggplant,Vegetable
+Solanum muricatum,Pepino Melon,Vegetable
+Cucumis sativus var. sativus,English Cucumber,Vegetable
+Cucumis sativus var. hardwickii,Armenian Cucumber,Vegetable
+Lycopersicon pimpinellifolium,Cherry Tomato,Vegetable
+Cucurbita ficifolia var. hispida,Chinese Squash,Vegetable
+Lactuca sativa var. crispa,Curly Lettuce,Vegetable
+Solanum melongena var. insanum,African Eggplant,Vegetable
+Malus domestica,Apple,Fruit
+Citrus limon,Lemon,Fruit
+Citrus sinensis,Orange,Fruit
+Citrus reticulata,Mandarin,Fruit
+Ananas comosus,Pineapple,Fruit
+Prunus persica,Peach,Fruit
+Phaseolus vulgaris,Common Bean,Legume
+Glycine max,Soybean,Legume
+Pisum sativum,Garden Pea,Legume
+Vigna radiata,Mung Bean,Legume
+Vigna unguiculata,Cowpea,Legume
+Cajanus cajan,Pigeon Pea,Legume
+Lens culinaris,Lentil,Legume
+Cicer arietinum,Chickpea,Legume
+Vicia faba,Fava Bean,Legume
+Arachis hypogaea,Peanut,Legume
+Lupinus angustifolius,Narrow-leafed Lupin,Legume
+Lathyrus odoratus,Sweet Pea,Legume
+Trifolium pratense,Red Clover,Legume
+Medicago sativa,Alfalfa,Legume
+Glycyrrhiza glabra,Licorice,Legume
+Robinia pseudoacacia,Black Locust,Legume
+Senna obtusifolia,Sicklepod,Legume
+Sesbania sesban,Agati,Legume
+Lablab purpureus,Hyacinth Bean,Legume
+Crotalaria juncea,Sunn Hemp,Legume
+Macroptilium lathyroides,Wild Bush Bean,Legume
+Melilotus officinalis,Yellow Sweet Clover,Legume
+Vicia hirsuta,Tufted Vetch,Legume
+Canavalia ensiformis,Jack Bean,Legume
+Crotalaria spectabilis,Tropical Soda Apple,Legume
+Desmodium intortum,Greenleaf Desmodium,Legume
+Dolichos lablab,Lablab Bean,Legume
+Glycine wightii,Wight's Glycine,Legume
+Indigofera tinctoria,True Indigo,Legume
+Lablab niger,Black Lablab,Legume
+Lathyrus japonicus,Sea Pea,Legume
+Lathyrus latifolius,Everlasting Pea,Legume
+Lotus corniculatus,Bird's-foot Trefoil,Legume
+Macroptilium atropurpureum,Purple Bush Bean,Legume
+Medicago lupulina,Black Medick,Legume
+Onobrychis viciifolia,Sainfoin,Legume
+Ormosia arborea,Tigerwood,Legume
+Pachyrhizus erosus,Jicama,Legume
+Phaseolus acutifolius,Tepary Bean,Legume
+Phaseolus coccineus,Runner Bean,Legume
+Pueraria lobata,Kudzu,Legume
+Rhynchosia minima,Small-leaved Butterfly Pea,Legume
+Senna alata,Candle Bush,Legume
+Tephrosia purpurea,Fish Poison Bean,Legume
+Tetragonolobus purpureus,Purple Sainfoin,Legume
+Vigna aconitifolia,Mat Bean,Legume
+Vigna umbellata,Rice Bean,Legume
+Triticum aestivum,Common Wheat,Grain
+Hordeum vulgare,Barley,Grain
+Oryza sativa,Rice,Grain
+Zea mays,Corn,Grain
+Avena sativa,Oats,Grain
+Secale cereale,Rye,Grain
+Sorghum bicolor,Sorghum,Grain
+Panicum miliaceum,Proso Millet,Grain
+Pennisetum glaucum,Pearl Millet,Grain
+Setaria italica,Foxtail Millet,Grain
+Fagopyrum esculentum,Buckwheat,Grain
+Echinochloa frumentacea,Jhangora,Grain
+Eleusine coracana,Finger Millet,Grain
+Amaranthus hypochondriacus,Prince's Feather,Grain
+Chenopodium quinoa,Quinoa,Grain
+Teff,Eragrostis tef,Grain
+Lathyrus sativus,Grass Pea,Grain
+Cicer arietinum,Chickpea,Grain
+Lens culinaris,Lentil,Grain
+Vicia faba,Fava Bean,Grain
+Vigna radiata,Mung Bean,Grain
+Pisum sativum,Garden Pea,Grain
+Phaseolus vulgaris,Common Bean,Grain
+Glycine max,Soybean,Grain
+Sesamum indicum,Sesame,Grain
+Linum usitatissimum,Flax,Grain
+Trifolium alexandrinum,Berseem Clover,Grain
+Lotus japonicus,Bird's-foot Trefoil,Grain
+Medicago sativa,Alfalfa,Grain
+Panicum maximum,Giant Panicum,Grain
+Urochloa humidicola,Kenya Grass,Grain
+Brachiaria brizantha,Marandu Grass,Grain
+Brachiaria decumbens,Piatã Grass,Grain
+Brachiaria humidicola,Tifton Grass,Grain
+Chloris gayana,Rhodes Grass,Grain
+Digitaria eriantha,Pangola Grass,Grain
+Elephant Grass,Pennisetum purpureum,Grain
+Paspalum notatum,Bahiagrass,Grain
+Pennisetum purpureum,Sudan Grass,Grain
+Sorghastrum nutans,Indiangrass,Grain
+Sorghum sudanense,Sudangrass,Grain
+Trifolium repens,White Clover,Grain
+Trifolium subterraneum,Subterranean Clover,Grain
+Aegilops tauschii,Tausch's Goatgrass,Grain
+Avena byzantina,Byzantine Oat,Grain
+Bromus catharticus,Brome Grass,Grain
+Festuca arundinacea,Tall Fescue,Grain
+Prunus amygdalus,Almond,Nut
+Carya illinoinensis,Pecan,Nut
+Juglans regia,English Walnut,Nut
+Corylus avellana,Hazelnut,Nut
+Pistacia vera,Pistachio,Nut
+Macadamia integrifolia,Macadamia Nut,Nut
+Castanea sativa,Chestnut,Nut
+Carya ovata,Shagbark Hickory,Nut
+Quercus alba,White Oak Acorn,Nut
+Juglans cinerea,Butternut,Nut
+Carya tomentosa,Mockernut Hickory,Nut
+Aleurites moluccana,Candlenut,Nut
+Carya glabra,Pignut Hickory,Nut
+Juglans nigra,Black Walnut,Nut
+Carya cordiformis,Bitternut Hickory,Nut
+Quercus rubra,Red Oak Acorn,Nut
+Corylus americana,American Hazelnut,Nut
+Juglans hindsii,Hinds Walnut,Nut
+Castanea mollissima,Chinese Chestnut,Nut
+Carya laciniosa,Shellbark Hickory,Nut
+Pecan hickory,Carya pecan,Nut
+Quercus macrocarpa,Bur Oak Acorn,Nut
+Carya alba,Mockernut,Nut
+Quercus phellos,Willow Oak Acorn,Nut
+Juglans ailantifolia,Japanese Walnut,Nut
+Carya ovalis,Red Hickory,Nut
+Quercus coccinea,Scarlet Oak Acorn,Nut
+Carya myristiciformis,Nutmeg Hickory,Nut
+Juglans mandshurica,Manchurian Walnut,Nut
+Quercus palustris,Pin Oak Acorn,Nut
+Carya pallida,Sand Hickory,Nut
+Quercus prinus,Chinquapin Oak Acorn,Nut
+Carya tomentosa,Hickory Nut,Nut
+Quercus velutina,Black Oak Acorn,Nut
+Carya carolinae-septentrionalis,Mockernut Hickory,Nut
+Quercus cerris,Turkey Oak Acorn,Nut
+Carya floridana,Scrub Hickory,Nut
+Quercus falcata,Southern Red Oak Acorn,Nut
+Carya aquatica,Water Hickory,Nut
+Quercus montana,Chestnut Oak Acorn,Nut
+Carya pallida,Hickory Pecan,Nut
+Quercus shumardii,Shumard Oak Acorn,Nut
+Carya texana,Black Hickory,Nut
+Quercus virginiana,Live Oak Acorn,Nut
+Carya tomentosa,White Hickory,Nut
+Quercus dentata,Daimyo Oak Acorn,Nut
+Carya australis,Southern Shagbark Hickory,Nut
+Latin Name,Common Name,Type
+Ocimum basilicum,Basil,Herb
+Petroselinum crispum,Parsley,Herb
+Rosmarinus officinalis,Rosemary,Herb
+Thymus vulgaris,Thyme,Herb
+Origanum vulgare,Oregano,Herb
+Coriandrum sativum,Cilantro,Herb
+Satureja hortensis,Summer Savory,Herb
+Salvia officinalis,Sage,Herb
+Mentha piperita,Peppermint,Herb
+Lavandula angustifolia,Lavender,Herb
+Melissa officinalis,Lemon Balm,Herb
+Artemisia dracunculus,Tarragon,Herb
+Chamomilla recutita,German Chamomile,Herb
+Borago officinalis,Borage,Herb
+Foeniculum vulgare,Fennel,Herb
+Dill,Anethum graveolens,Herb
+Santolina chamaecyparissus,Cotton Lavender,Herb
+Stevia rebaudiana,Stevia,Herb
+Mentha spicata,Spearmint,Herb
+Nepeta cataria,Catnip,Herb
+Agastache foeniculum,Anise Hyssop,Herb
+Lemon grass,Cymbopogon citratus,Herb
+Tanacetum parthenium,Feverfew,Herb
+Rue,Ruta graveolens,Herb
+Hyssopus officinalis,Hyssop,Herb
+Lemon balm,Melissa officinalis,Herb
+Sweet Marjoram,Origanum majorana,Herb
+Pennyroyal,Mentha pulegium,Herb
+Basil,Ocimum tenuiflorum,Herb
+Parsley,Petroselinum neapolitanum,Herb
+Winter savory,Satureja montana,Herb
+Peppermint,Mentha x piperita,Herb
+Lovage,Levisticum officinale,Herb
+Lemon Verbena,Aloysia citrodora,Herb
+Catmint,Nepeta mussinii,Herb
+Sweet Woodruff,Galium odoratum,Herb
+Savory,Satureja hortensis,Herb
+Sweet basil,Ocimum basilicum var. genovese,Herb
+Lemon thyme,Thymus citriodorus,Herb
+Greek oregano,Origanum heracleoticum,Herb
+Marjoram,Origanum majorana,Herb
+Tarragon,Artemisia dracunculus var. sativa,Herb
+Lavandula angustifolia,Lavender,Flower
+Tagetes erecta,Marigold,Flower
+Zinnia elegans,Zinnia,Flower
+Coreopsis tinctoria,Plains Coreopsis,Flower
+Eschscholzia californica,California Poppy,Flower
+Salvia farinacea,Mealy Cup Sage,Flower
+Cosmos bipinnatus,Cosmos,Flower
+Nigella damascena,Love-in-a-Mist,Flower
+Gypsophila elegans,Baby's Breath,Flower
+Daucus carota,Wild Carrot,Flower
+Centaurea cyanus,Cornflower,Flower
+Clarkia amoena,Farewell-to-Spring,Flower
+Calendula officinalis,Calendula,Flower
+Aster novae-angliae,New England Aster,Flower
+Linum grandiflorum,Ruby Flax,Flower
+Lupinus perennis,Wild Lupine,Flower
+Papaver rhoeas,Red Poppy,Flower
+Scabiosa atropurpurea,Pincushion Flower,Flower
+Helianthus annuus,Sunflower,Flower
+Antirrhinum majus,Snapdragon,Flower
+Aquilegia vulgaris,Columbine,Flower
+Chrysanthemum maximum,Shasta Daisy,Flower
+Delphinium ajacis,Rocket Larkspur,Flower
+Digitalis purpurea,Foxglove,Flower
+Iberis umbellata,Candytuft,Flower
+Linaria maroccana,Toadflax,Flower
+Malope trifida,Spanish Mallow,Flower
+Nemophila menziesii,Baby Blue Eyes,Flower
+Nasturtium,Tropaeolum majus,Flower
+Rudbeckia hirta,Black-Eyed Susan,Flower
+Salpiglossis sinuata,Painted Tongue,Flower
+Saponaria vaccaria,Soapwort,Flower
+Silene armeria,Sweet William Catchfly,Flower
+Viola tricolor,Johnny-Jump-Up,Flower
+Alyssum lobularia,Sweet Alyssum,Flower
+Borago officinalis,Borage,Flower
+Cheiranthus allionii,Siberian Wallflower,Flower
+Cleome hassleriana,Spider Flower,Flower
+Cobaea scandens,Cathedral Bells,Flower
+Consolida ajacis,Rocket Larkspur,Flower
+Larkspur,Delphinium consolida,Flower
+Lobelia erinus,Edging Lobelia,Flower
+Matthiola incana,Stock,Flower
+Nemesia strumosa,Nemesia,Flower
+Nicotiana alata,Flowering Tobacco,Flower
+Portulaca grandiflora,Moss Rose,Flower
+Helianthus annuus,Sunflower,Oil
+Linum usitatissimum,Flaxseed,Oil
+Brassica napus,Rapeseed,Oil
+Camelina sativa,Gold-of-Pleasure,Oil
+Sesamum indicum,Sesame,Oil
+Carthamus tinctorius,Safflower,Oil
+Gossypium hirsutum,Cottonseed,Oil
+Jatropha curcas,Jatropha,Oil
+Cannabis sativa,Hempseed,Oil
+Perilla frutescens,Perilla,Oil
+Simmondsia chinensis,Jojoba,Oil
+Ricinus communis,Castor Bean,Oil
+Plukenetia volubilis,Sacha Inchi,Oil
+Citrullus lanatus,Watermelon Seed,Oil
+Cucurbita pepo,Pumpkin Seed,Oil
+Echium plantagineum,Patterson's Curse,Oil
+Adansonia digitata,Baobab,Oil
+Argania spinosa,Argan,Oil
+Bertholletia excelsa,Brazil Nut,Oil
+Borago officinalis,Borage,Oil
+Corylus avellana,Hazelnut,Oil
+Oenothera biennis,Evening Primrose,Oil
+Elaeis guineensis,Oil Palm,Oil
+Glycine max,Soybean,Oil
+Gossypium barbadense,Extra Long Staple Cotton,Oil
+Hibiscus cannabinus,Kenaf,Oil
+Luffa acutangula,Sponge Gourd,Oil
+Moringa oleifera,Horseradish Tree,Oil
+Prunus armeniaca,Apricot Kernel,Oil
+Prunus dulcis,Almond,Oil
+Raphanus sativus,Radish,Oil
+Ricinodendron heudelotii,Njangsa,Oil
+Sapindus mukorossi,Soapnut,Oil
+Sclerocarya birrea,Marula,Oil
+Silybum marianum,Milk Thistle,Oil
+Solanum nigrum,Black Nightshade,Oil
+Theobroma cacao,Cocoa Bean,Oil
+Vernonia galamensis,Ironweed,Oil
+Vitis vinifera,Grape Seed,Oil
+Xanthoceras sorbifolium,Yellowhorn,Oil
+Annona cherimola,Cherimoya,Oil
+Aleurites moluccana,Candlenut,Oil
+Argemone mexicana,Prickly Poppy,Oil
+Garcinia indica,Kokum,Oil
+Lepidium sativum,Garden Cress,Oil
+Limnanthes alba,Meadowfoam,Oil
+Acer saccharinum,Silver Maple,Tree
+Aesculus hippocastanum,Horse Chestnut,Tree
+Albizia lebbeck,Indian Siris,Tree
+Betula papyrifera,Paper Birch,Tree
+Cedrus atlantica,Atlas Cedar,Tree
+Celtis australis,European Hackberry,Tree
+Cinnamomum camphora,Camphor Tree,Tree
+Cornus florida,Flowering Dogwood,Tree
+Fagus grandifolia,American Beech,Tree
+Fraxinus excelsior,European Ash,Tree
+Ginkgo biloba,Ginkgo,Tree
+Gleditsia triacanthos,Honey Locust,Tree
+Juglans nigra,Black Walnut,Tree
+Juniperus virginiana,Eastern Red Cedar,Tree
+Koelreuteria paniculata,Golden Rain Tree,Tree
+Larix decidua,European Larch,Tree
+Liquidambar styraciflua,Sweetgum,Tree
+Magnolia grandiflora,Southern Magnolia,Tree
+Morus alba,White Mulberry,Tree
+Nyssa sylvatica,Black Gum,Tree
+Olea europaea,Olive,Tree
+Picea abies,Norway Spruce,Tree
+Pinus strobus,Eastern White Pine,Tree
+Platanus occidentalis,American Sycamore,Tree
+Populus deltoides,Eastern Cottonwood,Tree
+Prunus avium,Sweet Cherry,Tree
+Prunus persica,Peach,Tree
+Pseudotsuga menziesii,Douglas Fir,Tree
+Quercus robur,English Oak,Tree
+Robinia pseudoacacia,Black Locust,Tree
+Salix babylonica,Weeping Willow,Tree
+Sequoia sempervirens,Coastal Redwood,Tree
+Styrax japonicus,Japanese Snowbell,Tree
+Tilia cordata,Littleleaf Linden,Tree
+Tilia platyphyllos,Bigleaf Linden,Tree
+Tsuga canadensis,Eastern Hemlock,Tree
+Ulmus americana,American Elm,Tree
+Viburnum opulus,European Cranberrybush,Tree
+Abies concolor,White Fir,Tree
+Acacia farnesiana,Sweet Acacia,Tree
+Ailanthus altissima,Tree of Heaven,Tree
+Arbutus unedo,Strawberry Tree,Tree
+Carya illinoinensis,Pecan,Tree
+Castanea sativa,Sweet Chestnut,Tree
+Catalpa bignonioides,Southern Catalpa,Tree
+Cedrela odorata,Cedarwood,Tree
+Cercis canadensis,Eastern Redbud,Tree
+Corymbia ficifolia,Red Flowering Gum,Tree
+Allium schoenoprasum,Chives,Bulb
+Allium ascalonicum,Shallot,Bulb
+Allium ampeloprasum,Leek,Bulb
+Allium chinense,Chinese onion,Bulb
+Allium fistulosum,Scallion,Bulb
+Asparagus officinalis,Asparagus,Bulb
+Brodiaea spp.,Cluster Lily,Bulb
+Calochortus spp.,Mariposa Lily,Bulb
+Colchicum spp.,Autumn Crocus,Bulb
+Convallaria majalis,Lily of the Valley,Bulb
+Crinum spp.,Crinum Lily,Bulb
+Crocus spp.,Crocus,Bulb
+Dahlia spp.,Dahlia,Bulb
+Eremurus spp.,Foxtail Lily,Bulb
+Fritillaria spp.,Fritillary,Bulb
+Galanthus spp.,Snowdrop,Bulb
+Gladiolus spp.,Gladiolus,Bulb
+Haemanthus spp.,Blood Lily,Bulb
+Hemerocallis spp.,Daylily,Bulb
+Hippeastrum spp.,Amaryllis,Bulb
+Hyacinthus spp.,Hyacinth,Bulb
+Iris spp.,Iris,Bulb
+Leucojum spp.,Snowflake,Bulb
+Lilium spp.,Lily,Bulb
+Muscari spp.,Grape Hyacinth,Bulb
+Narcissus spp.,Daffodil,Bulb
+Oxalis spp.,Oxalis,Bulb
+Paeonia spp.,Peony,Bulb
+Polygonatum spp.,Solomon's Seal,Bulb
+Ranunculus spp.,Buttercup,Bulb
+Scilla spp.,Squill,Bulb
+Sternbergia spp.,Autumn Daffodil,Bulb
+Trillium spp.,Trillium,Bulb
+Tulipa spp.,Tulip,Bulb
+Urginea spp.,Sea Squill,Bulb
+Acis autumnalis,Autumn Snowflake,Bulb
+Allium sphaerocephalon,Round-headed Leek,Bulb
+Corydalis solida,Fawn Lily,Bulb
+Cyclamen spp.,Cyclamen,Bulb
+Erythronium spp.,Dogtooth Violet,Bulb
+Hymenocallis spp.,Spider Lily,Bulb
+Nectaroscordum spp.,Honey Garlic,Bulb
+Ornithogalum spp.,Star-of-Bethlehem,Bulb
+Scadoxus spp.,Blood Flower,Bulb
+Triteleia spp.,Triplet Lily,Bulb
+Tulbaghia spp.,Society Garlic,Bulb
+Capsicum annuum,Chili pepper,Spice
+Cuminum cyminum,Cumin,Spice
+Piper nigrum,Black pepper,Spice
+Curcuma longa,Turmeric,Spice
+Syzygium aromaticum,Clove,Spice
+Coriandrum sativum,Coriander,Spice
+Foeniculum vulgare,Fennel,Spice
+Zingiber officinale,Ginger,Spice
+Myristica fragrans,Nutmeg,Spice
+Cinnamomum verum,Cinnamon,Spice
+Elettaria cardamomum,Cardamom,Spice
+Pimenta dioica,AllSpice,Spice
+Carum carvi,Caraway,Spice
+Nigella sativa,Black cumin,Spice
+Papaver somniferum,Poppy seed,Spice
+Trigonella foenum-graecum,Fenugreek,Spice
+Cuminum neglectum,Black cumin,Spice
+Laurus nobilis,Bay leaf,Spice
+Cinnamomum tamala,Indian bay leaf,Spice
+Pimpinella anisum,Anise,Spice
+Foeniculum vulgare var. dulce,Sweet fennel,Spice
+Curcuma zedoaria,White turmeric,Spice
+Brassica nigra,Black mustard,Spice
+Cinnamomum cassia,Chinese cinnamon,Spice
+Myristica argentea,Mace,Spice
+Cuminum cyminum var. cuminum,Cumin,Spice
+Abelmoschus esculentus,Okra,Spice
+Curcuma aromatica,Wild turmeric,Spice
+Achyranthes aspera,Prickly chaff flower,Spice
+Zingiber zerumbet,Wild ginger,Spice
+Nigella damascena,Love-in-a-mist,Spice
+Syzygium cumini,Java plum,Spice
+Cuminum cymimum,Black cumin,Spice
+Trachyspermum roxburghianum,Stone flower,Spice
+Anethum graveolens,Dill,Spice
+Ferula assa-foetida,Asafoetida,Spice
+Foeniculum vulgare var. azoricum,Florence fennel,Spice
+Ferula narthex,Giant fennel,Spice
+Nigella arvensis,Roman coriander,Spice
+Curcuma amada,Mango ginger,Spice
+Cinnamomum malabathrum,Indian bay leaf,Spice
+Nigella hispanica,Spanish black cumin,Spice
+Cuminum jatamansi,Spikenard,Spice
+Elettaria repens,Green cardamom,Spice
+Foeniculum vulgare var. vulgare,Wild fennel,Spice
+Amomum subulatum,Black cardamom,Spice
+Curcuma caesia,Black turmeric,Spice
+Cuminum alyssum,White cumin,Spice
+Cinnamomum burmannii,Indonesian cinnamon,Spice
+Elettaria cardamomum var. cardamomum,Green cardamom,Spice

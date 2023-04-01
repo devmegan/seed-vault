@@ -30,4 +30,21 @@ FROM '/tmp/fixtures/seeds.csv'
 WITH (FORMAT csv);
 
 \echo 'Seeds data loaded'
-\echo 'Done.'
+
+CREATE TABLE facilities_seeds (
+  id SERIAL PRIMARY KEY,
+  facility_id INTEGER REFERENCES facilities(id),
+  seed_id INTEGER REFERENCES seeds(id)
+);
+
+\echo 'Adding legume seeds to the Desert Legume Program vault...'
+
+INSERT INTO facilities_seeds (facility_id, seed_id)
+SELECT f.id, s.id
+FROM seeds s
+JOIN facilities f ON f.name = 'Desert Legume Program'
+WHERE s.type ILIKE 'legume';
+
+\dt+;
+
+\echo 'Success!'

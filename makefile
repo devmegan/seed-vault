@@ -24,3 +24,13 @@ build: ## Build docker image for postgres container
 	@docker build -t $(IMAGE_NAME) .
 
 .PHONY: default start stop restart
+
+### Interact with postgres container ###
+
+postgres: ## Connect to postgres container
+	@docker exec -it $(CONTAINER_NAME) psql -U postgres vaults
+
+logs: ## Show logs of postgres container
+	@docker container logs $(CONTAINER_NAME)
+
+.PHONY: postgres logs

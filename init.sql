@@ -43,7 +43,19 @@ INSERT INTO facilities_seeds (facility_id, seed_id)
 SELECT f.id, s.id
 FROM seeds s
 JOIN facilities f ON f.name = 'Desert Legume Program'
-WHERE s.type ILIKE 'legume';
+WHERE s.type = 'Legume';
+
+\echo 'Adding seeds to other global facilities...'
+
+INSERT INTO facilities_seeds (facility_id, seed_id)
+SELECT f.id, s.id
+FROM facilities f CROSS JOIN (
+  SELECT *
+  FROM seeds
+  WHERE RANDOM() < (0.4 + (0.4 * RANDOM()))
+  ORDER BY RANDOM()
+) s -- generate a random percentage of seeds between 40% and 80% to assign to each facility
+WHERE f.name <> 'Desert Legume Program';
 
 \dt+;
 

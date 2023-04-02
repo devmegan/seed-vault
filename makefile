@@ -8,7 +8,7 @@ DEFAULT_GOAL:=start
 
 ### Project setup ###
 
-start: ## Start postgres container
+start: validate_password ## Start postgres container
 	@echo "Starting postgres container $(CONTAINER_NAME)..."
 	@docker run --name $(CONTAINER_NAME) --rm -d -p 5431:5431 -e POSTGRES_PASSWORD=$(POSTGRES_PASSWORD) -e POSTGRES_DB=$(POSTGRES_DB) $(IMAGE_NAME) > /dev/null
 	@echo "Started $(CONTAINER_NAME) successfully"
@@ -34,3 +34,16 @@ logs: ## Show logs of postgres container
 	@docker container logs $(CONTAINER_NAME)
 
 .PHONY: postgres logs
+
+### Helper targets ###
+
+validate_password: ## Check if POSTGRES_PASSWORD is set
+	@if [ -z $(POSTGRES_PASSWORD) ]; then\
+        echo "Postgres password has not been set.\n"; \
+		echo "Usage for make start or make restart:"; \
+		echo "  make start pw=<postgres_password>"; \
+		echo "  make restart pw=<postgres_password>\n"; \
+		exit 1;\
+    fi
+
+.PHONY: validate_password

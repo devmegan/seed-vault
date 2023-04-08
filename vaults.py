@@ -34,9 +34,9 @@ def facilities():
     if res:
         headers = ["id", "name", "city", "country"]
         results = [dict(zip(headers, row)) for row in res]
-        return jsonify({"results": results})
+        return render_template("facilities.html", results=results)
     else:
-        return jsonify({"results": "No facilities found"})
+        return render_template("facilities.html", results=None)
 
 
 def postgres_connect():

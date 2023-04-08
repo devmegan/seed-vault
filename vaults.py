@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 import os
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template
 import psycopg2
 from tabulate import tabulate
 
@@ -19,7 +19,7 @@ db_config = {
 
 @svdb.route("/")
 def index():
-    return "<h1>SVDB</h1><p>The Seed Vault Database</p>"
+    return render_template("index.html")
 
 
 @svdb.route("/facilities")

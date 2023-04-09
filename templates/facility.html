@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ facility.name }}{% endblock %}
+
+{% block content %}
+{% if facility %}
+    <h1>{{ facility.name }}</h1>
+    <table>
+        <tbody>
+          <tr>
+            <th>City:</th>
+            <td>{{ facility["city"] }}</td>
+          </tr>
+          <tr>
+            <th>Country:</th>
+            <td>{{ facility["country"] }}</td>
+          </tr>
+          <tr>
+            <th>Seed Count:</th>
+            <td>{{ facility["count"] }}</td>
+          </tr>
+        </tbody>
+      </table>
+    {% else %}
+        <h1>No facility found with id {{ id }}</h1>
+    {% endif %}
+{% endblock %}

@@ -8,32 +8,54 @@ DEFAULT_GOAL:=start
 
 ### Project setup ###
 
-start: validate_password ## Start postgres container
-	@echo "Starting postgres container $(CONTAINER_NAME)..."
-	@docker run --name $(CONTAINER_NAME) --rm -d -p 5431:5431 -e POSTGRES_PASSWORD=$(POSTGRES_PASSWORD) -e POSTGRES_DB=$(POSTGRES_DB) $(IMAGE_NAME) > /dev/null
-	@echo "Started $(CONTAINER_NAME) successfully"
+development: build pip-requirements
 
-stop: ## Stop postgres container
-	@echo "Stopping postgres container $(CONTAINER_NAME)..."
-	@docker container stop $(CONTAINER_NAME) > /dev/null
-	@echo "Stopped $(CONTAINER_NAME)"
+start: postgres
+	@echo
+	@$(MAKE) -s flask
+
+stop: postgres-stop
+# TODO: flask-stop
 
 restart: stop start ## Restart postgres container
 
 build: ## Build docker image for postgres container
 	@docker build -t $(IMAGE_NAME) .
 
-.PHONY: default start stop restart
+.PHONY: development start stop restart
+
+### Manage flask app ###
+
+pip-requirements: ## install pip requirements
+	@echo "Installing pip requirements..."
+	@pip install -r requirements.txt
+	@echo "Installed pip requirements"
+
+flask: ## start flask app
+	@echo "Starting flask app..."
+	@flask --app vaults run
+
+.PHONY: pip-requirements flask
 
 ### Interact with postgres container ###
 
-postgres: ## Connect to postgres container
+postgres: validate_password ## Start postgres container
+	@echo "Starting postgres container $(CONTAINER_NAME)..."
+	@docker run --name $(CONTAINER_NAME) --rm -d -p 5431:5431 -e POSTGRES_PASSWORD=$(POSTGRES_PASSWORD) -e POSTGRES_DB=$(POSTGRES_DB) $(IMAGE_NAME) > /dev/null
+	@echo "Started $(CONTAINER_NAME) successfully"
+
+postgres-stop: ## Stop postgres container
+	@echo "Stopping postgres container $(CONTAINER_NAME)..."
+	@docker container stop $(CONTAINER_NAME) > /dev/null
+	@echo "Stopped $(CONTAINER_NAME)"
+
+postgres-shell: ## Connect to postgres container
 	@docker exec -it $(CONTAINER_NAME) psql -U postgres vaults
 
 logs: ## Show logs of postgres container
 	@docker container logs $(CONTAINER_NAME)
 
-.PHONY: postgres logs
+.PHONY: postgres postgres-stop postgres-shell logs
 
 ### Helper targets ###
 

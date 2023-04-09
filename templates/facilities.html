@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block title %}Facilities{% endblock %}
+
+{% block content %}
+    <h1>Facilities</h1>
+    {% if results %}
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>City</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for result in results %}
+                    <tr>
+                        <td>
+                            <a href='facilities/{{ result["id"] }}'>{{ result["name"] }}</a>
+                        </td>
+                        <td>
+                            <a href='facilities/{{ result["id"] }}'>{{ result["city"] }}</a>
+                        </td>
+                        <td>
+                            <a href='facilities/{{ result["id"] }}'>{{ result["country"] }}</a>
+                        </td>
+                    </tr>
+              {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p>No facilities found.</p>
+    {% endif %}
+{% endblock %}

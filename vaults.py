@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 import os
-from flask import Flask, jsonify, render_template
+from flask import Flask, render_template
 import psycopg2
 from tabulate import tabulate
 
@@ -37,6 +37,35 @@ def facilities():
         return render_template("facilities.html", results=results)
     else:
         return render_template("facilities.html", results=None)
+
+
+@svdb.route("/facilities/<int:facility_id>")
+def get_facility(facility_id):
+    conn = postgres_connect()
+
+    cur = conn.cursor()
+    cur.execute("""
+        SELECT facilities.*, COUNT(seeds.id) as num_seeds
+        FROM facilities
+        LEFT JOIN facilities_seeds ON facilities.id = facilities_seeds.facility_id
+        LEFT JOIN seeds ON facilities_seeds.seed_id = seeds.id
+        WHERE facilities.id = %s
+        GROUP BY facilities.id
+    """, (facility_id,))
+
+    res = cur.fetchall()
+
+    if res:
+        facility = {
+            "name": res[0][1],
+            "city": res[0][2],
+            "country": res[0][3],
+            "count": res[0][4]
+        }
+
+        return render_template("facility.html", facility=facility)
+    else:
+        return render_template("facility.html", facility=None, id=facility_id)
 
 
 def postgres_connect():

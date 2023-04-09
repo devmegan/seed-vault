@@ -16,11 +16,17 @@
             <tbody>
                 {% for result in results %}
                     <tr>
-                        <td>{{ result["name"] }}</td>
-                        <td>{{ result["city"] }}</td>
-                        <td>{{ result["country"] }}</td>
+                        <td>
+                            <a href='facilities/{{ result["id"] }}'>{{ result["name"] }}</a>
+                        </td>
+                        <td>
+                            <a href='facilities/{{ result["id"] }}'>{{ result["city"] }}</a>
+                        </td>
+                        <td>
+                            <a href='facilities/{{ result["id"] }}'>{{ result["country"] }}</a>
+                        </td>
                     </tr>
-                {% endfor %}
+              {% endfor %}
             </tbody>
         </table>
     {% else %}

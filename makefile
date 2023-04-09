@@ -8,6 +8,8 @@ DEFAULT_GOAL:=start
 
 ### Project setup ###
 
+development: build pip-requirements
+
 start: postgres
 	@echo
 	@$(MAKE) -s flask
@@ -20,16 +22,21 @@ restart: stop start ## Restart postgres container
 build: ## Build docker image for postgres container
 	@docker build -t $(IMAGE_NAME) .
 
-.PHONY: default start stop restart
-
+.PHONY: development start stop restart
 
 ### Manage flask app ###
+
+pip-requirements: ## install pip requirements
+	@echo "Installing pip requirements..."
+	@pip install -r requirements.txt
+	@echo "Installed pip requirements"
 
 flask: ## start flask app
 	@echo "Starting flask app..."
 	@flask --app vaults run
 
-.PHONY: flask
+.PHONY: pip-requirements flask
+
 ### Interact with postgres container ###
 
 postgres: validate_password ## Start postgres container

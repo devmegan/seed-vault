@@ -7,9 +7,17 @@
     <meta name="description" content="The Seed Vault Database manages seed collections across global seed vault facilities.">
     <meta name="keywords" content="seed vaults, seed vault database, plant biodiversity">
     <meta name="author" content="devmegan">
+    <link href="{{url_for('static',filename='css/main.css')}}" rel="stylesheet">
     <title>{% block title %}{% endblock %} | SVDB</title>
 </head>
 <body>
+    <header>
+        <nav class="flex justify-center bg-gray-100">
+            <a href="{{url_for('index')}}" class="btn-nav">Home</a>
+            <a href="{{url_for('facilities')}}" class="btn-nav">Facilities</a>
+            <a href="#" class="btn-nav">Seeds</a>
+        </nav>
+    </header>
    {% block content%}{% endblock%}
 </body>
 </html>

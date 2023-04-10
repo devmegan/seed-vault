@@ -35,7 +35,14 @@ flask: ## start flask app
 	@echo "Starting flask app..."
 	@flask --app vaults run
 
-.PHONY: pip-requirements flask
+.PHONY: pip-requirements flask tailwind
+
+### Tailwind ###
+
+tailwind: ## building css ##
+	@npm run create-css
+
+.PHONY: tailwind
 
 ### Interact with postgres container ###
 

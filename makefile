@@ -8,7 +8,9 @@ DEFAULT_GOAL:=start
 
 ### Project setup ###
 
-development: build pip-requirements
+development: build pip-requirements tailwind
+	@echo
+	@echo "Ready to go!"
 
 start: postgres
 	@echo
@@ -33,14 +35,20 @@ pip-requirements: ## install pip requirements
 
 flask: ## start flask app
 	@echo "Starting flask app..."
-	@flask --app vaults run
+	@flask --app vaults run --debug
 
 .PHONY: pip-requirements flask tailwind
 
 ### Tailwind ###
 
 tailwind: ## building css ##
+	@echo "Installing npm packages..."
+	@npm ci
+	@echo "Installed npm packages"
+	@echo
+	@echo "Building tailwind css..."
 	@npm run create-css
+	@echo "Built tailwind css"
 
 .PHONY: tailwind
 

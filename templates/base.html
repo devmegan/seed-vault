@@ -10,12 +10,12 @@
     <link href="{{url_for('static',filename='css/main.css')}}" rel="stylesheet">
     <title>{% block title %}{% endblock %} | SVDB</title>
 </head>
-<body>
+<body class="prose max-w-none">
     <header>
         <nav class="flex justify-center bg-gray-100">
-            <a href="{{url_for('index')}}" class="btn-nav">Home</a>
-            <a href="{{url_for('facilities')}}" class="btn-nav">Facilities</a>
-            <a href="#" class="btn-nav">Seeds</a>
+            <a href="{{url_for('index')}}" class="btn-nav {% if active_tab == 'index' %}active{% endif %}">Home</a>
+            <a href="{{url_for('facilities')}}" class="btn-nav {% if active_tab == 'facilities' %}active{% endif %}">Facilities</a>
+            <a href="#" class="btn-nav {% if active_tab == 'seeds' %}active{% endif %}">Seeds</a>
         </nav>
     </header>
    {% block content%}{% endblock%}

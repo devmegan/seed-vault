@@ -3,6 +3,14 @@
 {% block title %}Seed Vault Database{% endblock %}
 
 {% block content %}
-<h1>SVDB</h1>
-<p>The Seed Vault Database.</p>
+<div class="hero">
+    <div class="hero-text">
+        <h1>SVDB</h1>
+        <p class="strapline">The Seed Vault Database</p>
+        <p>
+            Seed vaults are some of the most innovative facilities in the world. Usually constructed underground, and designed to withstand the threat of floods, fires, bombs, and radiation, maintaining sub-zero temperatures, with the goal to preserve and protect plant biodiversity for future generations.</p>
+        </p>
+    </div>
+</div>
+<img class="hero-img" alt="illustration of little light brown melon seeds" src="{{url_for('static',filename='img/hero-seeds.png')}}"/>
 {% endblock %}

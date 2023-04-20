@@ -1,0 +1,15 @@
+@layer components {
+    nav > .btn-nav {
+      @apply py-5 px-6 text-gray-700;
+      @apply hover:bg-sky-900  hover:text-white;
+      @apply focus:bg-sky-900 focus:text-white;
+    }
+
+    .active {
+      @apply bg-amber-400;
+    }
+
+    nav > a {
+      @apply !no-underline;
+    }
+}

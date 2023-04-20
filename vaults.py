@@ -19,7 +19,7 @@ db_config = {
 
 @svdb.route("/")
 def index():
-    return render_template("index.html")
+    return render_template("index.html", active_tab="index")
 
 
 @svdb.route("/facilities")
@@ -34,9 +34,17 @@ def facilities():
     if res:
         headers = ["id", "name", "city", "country"]
         results = [dict(zip(headers, row)) for row in res]
-        return render_template("facilities.html", results=results)
+        return render_template(
+            "facilities.html",
+            results=results,
+            active_tab="facilities"
+        )
     else:
-        return render_template("facilities.html", results=None)
+        return render_template(
+            "facilities.html",
+            results=None,
+            active_tab="facilities"
+        )
 
 
 @svdb.route("/facilities/<int:facility_id>")
@@ -63,9 +71,18 @@ def get_facility(facility_id):
             "count": res[0][4]
         }
 
-        return render_template("facility.html", facility=facility)
+        return render_template(
+            "facility.html",
+            facility=facility,
+            active_tab="facilities"
+        )
     else:
-        return render_template("facility.html", facility=None, id=facility_id)
+        return render_template(
+            "facility.html",
+            facility=None,
+            id=facility_id,
+            active_tab="facilities"
+        )
 
 
 def postgres_connect():

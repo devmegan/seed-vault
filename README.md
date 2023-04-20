@@ -1,5 +1,7 @@
 # [SVDB](https://github.com/devmegan/svdb)
 
+<img src="README/svdb.png" alt="screenshot of the svdb homepage"/>
+
 Seed vaults exist to preserve plant biodiversity in the event of disaster. The fixture for the SVDB (Seed Vault Database) holds records of 469 seeds, but in reality the world's largest seed vault holds over 2.4 billion seeds.
 
 This project provides a postgres database that includes tables for seeds, facilities, and a join table that connects them. 

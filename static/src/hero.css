@@ -1,0 +1,28 @@
+@layer components {
+    .hero {
+        @apply container mx-auto;
+    }
+
+    .hero-text {
+        @apply pt-20 px-20;
+    }
+
+    .hero-text h1 {
+        @apply text-sky-900 text-6xl mb-0;
+    }
+
+    .hero-text .strapline {
+        @apply font-bold text-2xl mt-2;
+    }
+
+    .hero-text p {
+        @apply max-w-screen-sm xl:max-w-screen-md;
+    }
+
+    .hero-img {
+        @apply relative -z-10 -right-64 -top-40;
+        @apply sm:-right-2/3 sm:w-2/3 sm:-top-28;
+        @apply md:w-3/5 md:-right-2/3;
+        @apply lg:absolute lg:top-0 lg:-right-80 lg:w-3/5;
+    }
+}

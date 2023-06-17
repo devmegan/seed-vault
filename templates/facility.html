@@ -3,10 +3,12 @@
 {% block title %}{{ facility.name }}{% endblock %}
 
 {% block content %}
-{% if facility %}
-    <h1>{{ facility.name }}</h1>
-    <table>
-        <tbody>
+<div>
+  {% if facility %}
+  <h1 class="text-sky-900">{{ facility.name }}</h1>
+  <div>
+    <table class="bg-gray-100 rounded-md md:max-w-screen-sm">
+      <tbody>
           <tr>
             <th>City:</th>
             <td>{{ facility["city"] }}</td>
@@ -21,7 +23,9 @@
           </tr>
         </tbody>
       </table>
+    </div>
     {% else %}
         <h1>No facility found with id {{ id }}</h1>
     {% endif %}
+</div>
 {% endblock %}

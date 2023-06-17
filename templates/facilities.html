@@ -3,9 +3,10 @@
 {% block title %}Facilities{% endblock %}
 
 {% block content %}
-    <h1>Facilities</h1>
-    {% if results %}
-        <table>
+    <div class="facilities">
+        <h1>Facilities</h1>
+        {% if results %}
+        <table class="md:max-w-[80%]">
             <thead>
                 <tr>
                     <th>Name</th>
@@ -29,7 +30,8 @@
               {% endfor %}
             </tbody>
         </table>
-    {% else %}
-        <p>No facilities found.</p>
-    {% endif %}
+        {% else %}
+            <h1>No facilities found.</h1>
+        {% endif %}
+    </div>
 {% endblock %}

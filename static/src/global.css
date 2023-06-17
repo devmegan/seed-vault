@@ -1,0 +1,23 @@
+body {
+    @apply overflow-x-hidden;
+}
+
+p {
+    @apply text-lg;
+}
+
+h1 {
+    @apply text-sky-900;
+}
+
+table { 
+    @apply bg-gray-100 rounded-md;
+}
+
+th {
+    @apply !p-4;
+}
+
+td {
+    @apply !py-2 !px-4 !align-middle;
+}
